@@ -1,103 +1,243 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>Strona o super samochodach</title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="slajder.css">
-    </head>
-    <body id="body">
-<!-- Kod menu -->
-        <div id="kontener">
-            <ul id="menu">
-                <li><a href="#">FERRARI</a>
-                    <ul>
-                        <li><a href="#">TYP 1</a></li>
-                        <li><a href="#">TYP 2</a></li>
-                        <li><a href="#">TYP 3</a></li>
-                    </ul>
-                </li>
-                <li><a href="https://webroad.pl">LAMBORGHINI</a>
-                    <ul>
-                        <li><a href="#">TYP 1</a></li>
-                        <li><a href="#">TYP 2</a></li>
-                        <li><a href="#">TYP 3</a></li>
-                    </ul>
-                </li>
-                <li><a href="https://webroad.pl">MCLAREN</a>
-                    <ul>
-                        <li><a href="#">TYP 1</a></li>
-                        <li><a href="#">TYP 2</a></li>
-                        <li><a href="#">TYP 3</a></li>
-                    </ul> 
-                </li>
-                <li><a href="#">KOENIGSEGG</a>
-                    <ul>
-                        <li><a href="#">TYP 1</a></li>
-                        <li><a href="#">TYP 2</a></li>
-                        <li><a href="#">TYP 3</a></li>
-                    </ul>
-                </li>
-                <li><a href="#">BUGATTI</a>
-                    <ul>
-                        <li><a href="#">TYP 1</a></li>
-                        <li><a href="#">TYP 2</a></li>
-                        <li><a href="#">TYP 3</a></li>
-                    </ul>
-                </li>
-                <li><a href="#">PORSCHE</a>
-                    <ul>
-                        <li><a href="#">TYP 1</a></li>
-                        <li><a href="#">TYP 2</a></li>
-                        <li><a href="#">TYP 3</a></li>
-                    </ul>
-                </li>
-                <li><a href="#">BMW</a>
-                    <ul>
-                        <li><a href="#">TYP 1</a></li>
-                        <li><a href="#">TYP 2</a></li>
-                        <li><a href="#">TYP 3</a></li>
-                    </ul>
-                </li>
-                <li><a href="#">AUDI</a>
-                    <ul>
-                        <li><a href="#">TYP 1</a></li>
-                        <li><a href="#">TYP 2</a></li>
-                        <li><a href="#">TYP 3</a></li>
-                    </ul>
-                </li>
-                <li><a href="#">MERCEDES</a>
-                    <ul>
-                        <li><a href="#">TYP 1</a></li>
-                        <li><a href="#">TYP 2</a></li>
-                        <li><a href="#">TYP 3</a></li>
-                    </ul>
-                </li>
-            </ul>    
+<html lang="pl">
+<head>
+    <title>SUPER SAMOCHODY</title>
+    <meta name="robots" content="index,follow"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+        content="Wszystko o najlepszych i najszybszych maszynach na świecie. Sprawdź!">
+    <meta name="keywords" content="super samochody">
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <div class="w3-top">
+        <div class="w3-bar w3-black w3-card">
+            <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars w3-text-deep-orange"></i></a>
+            <div class="w3-dropdown-hover w3-hide-small">
+                <a class="w3-padding-large w3-button w3-hover-orange w3-padding-large w3-hide-small w3-text-deep-orange">ASTON MARTIN 
+                    <i class="fa fa-caret-down"></i>
+                </a>
+                <div class="w3-dropdown-content w3-bar-block w3-card-4 hover">
+                    <a href="./podstrony/aston/db11.html" class="w3-bar-item w3-button w3-hover-orange w3-padding-large w3-hide-small w3-text-deep-orange w3-black">DB 11</a>
+                    <a href="./podstrony/aston/vantage.html" class="w3-bar-item w3-button w3-hover-orange w3-padding-large w3-hide-small w3-text-deep-orange w3-black">VANTAGE</a>
+                </div>
+            </div>
+            <div class="w3-dropdown-hover w3-hide-small">
+                <a class="w3-padding-large w3-button w3-hover-orange w3-padding-large w3-hide-small w3-text-deep-orange">AUDI 
+                    <i class="fa fa-caret-down"></i>
+                </a>
+                <div class="w3-dropdown-content w3-bar-block w3-card-4 hover">
+                    <a href="./podstrony/audi/rs6.html" class="w3-bar-item w3-button w3-hover-orange w3-padding-large w3-hide-small w3-text-deep-orange w3-black">RS 6</a>
+                    <a href="./podstrony/audi/r8.html" class="w3-bar-item w3-button w3-hover-orange w3-padding-large w3-hide-small w3-text-deep-orange w3-black">R8</a>
+                </div>
+            </div>
+            <div class="w3-dropdown-hover w3-hide-small">
+                <a class="w3-padding-large w3-button w3-hover-orange w3-padding-large w3-hide-small w3-text-deep-orange">BMW 
+                    <i class="fa fa-caret-down"></i>
+                </a>
+                <div class="w3-dropdown-content w3-bar-block w3-card-4 hover">
+                    <a href="./podstrony/marka_auta/nazwa_modelu.html" class="w3-bar-item w3-button w3-hover-orange w3-padding-large w3-hide-small w3-text-deep-orange w3-black">TYP 1</a>
+                    <a href="./podstrony/marka_auta/nazwa_modelu.html" class="w3-bar-item w3-button w3-hover-orange w3-padding-large w3-hide-small w3-text-deep-orange w3-black">TYP 2</a>
+                </div>
+            </div>
+            <div class="w3-dropdown-hover w3-hide-small">
+                <a class="w3-padding-large w3-button w3-hover-orange w3-padding-large w3-hide-small w3-text-deep-orange">BUGATTI 
+                    <i class="fa fa-caret-down"></i>
+                </a>
+                <div class="w3-dropdown-content w3-bar-block w3-card-4 hover">
+                    <a href="./podstrony/marka_auta/nazwa_modelu.html" class="w3-bar-item w3-button w3-hover-orange w3-padding-large w3-hide-small w3-text-deep-orange w3-black">TYP 1</a>
+                    <a href="./podstrony/marka_auta/nazwa_modelu.html" class="w3-bar-item w3-button w3-hover-orange w3-padding-large w3-hide-small w3-text-deep-orange w3-black">TYP 2</a>
+                </div>
+            </div>
+            <div class="w3-dropdown-hover w3-hide-small">
+                <a class="w3-padding-large w3-button w3-hover-orange w3-padding-large w3-hide-small w3-text-deep-orange">FERRARI 
+                    <i class="fa fa-caret-down"></i>
+                </a>
+                <div class="w3-dropdown-content w3-bar-block w3-card-4 hover">
+                    <a href="./podstrony/marka_auta/nazwa_modelu.html" class="w3-bar-item w3-button w3-hover-orange w3-padding-large w3-hide-small w3-text-deep-orange w3-black">TYP 1</a>
+                    <a href="./podstrony/marka_auta/nazwa_modelu.html" class="w3-bar-item w3-button w3-hover-orange w3-padding-large w3-hide-small w3-text-deep-orange w3-black">TYP 2</a>
+                </div>
+            </div>
+            <div class="w3-dropdown-hover w3-hide-small">
+                <a class="w3-padding-large w3-button w3-hover-orange w3-padding-large w3-hide-small w3-text-deep-orange">KOENIGSEGG 
+                    <i class="fa fa-caret-down"></i>
+                </a>
+                <div class="w3-dropdown-content w3-bar-block w3-card-4 hover">
+                    <a href="./podstrony/marka_auta/nazwa_modelu.html" class="w3-bar-item w3-button w3-hover-orange w3-padding-large w3-hide-small w3-text-deep-orange w3-black">TYP 1</a>
+                    <a href="./podstrony/marka_auta/nazwa_modelu.html" class="w3-bar-item w3-button w3-hover-orange w3-padding-large w3-hide-small w3-text-deep-orange w3-black">TYP 2</a>
+                </div>
+            </div>
+            <div class="w3-dropdown-hover w3-hide-small">
+                <a class="w3-padding-large w3-button w3-hover-orange w3-padding-large w3-hide-small w3-text-deep-orange">LAMBORGHINI 
+                    <i class="fa fa-caret-down"></i>
+                </a>
+                <div class="w3-dropdown-content w3-bar-block w3-card-4 hover">
+                    <a href="./podstrony/marka_auta/nazwa_modelu.html" class="w3-bar-item w3-button w3-hover-orange w3-padding-large w3-hide-small w3-text-deep-orange w3-black">TYP 1</a>
+                    <a href="./podstrony/marka_auta/nazwa_modelu.html" class="w3-bar-item w3-button w3-hover-orange w3-padding-large w3-hide-small w3-text-deep-orange w3-black">TYP 2</a>
+                </div>
+            </div>
+            <div class="w3-dropdown-hover w3-hide-small">
+                <a class="w3-padding-large w3-button w3-hover-orange w3-padding-large w3-hide-small w3-text-deep-orange">MCLAREN 
+                    <i class="fa fa-caret-down"></i>
+                </a>
+                <div class="w3-dropdown-content w3-bar-block w3-card-4 hover">
+                    <a href="./podstrony/marka_auta/nazwa_modelu.html" class="w3-bar-item w3-button w3-hover-orange w3-padding-large w3-hide-small w3-text-deep-orange w3-black">TYP 1</a>
+                    <a href="./podstrony/marka_auta/nazwa_modelu.html" class="w3-bar-item w3-button w3-hover-orange w3-padding-large w3-hide-small w3-text-deep-orange w3-black">TYP 2</a>
+                </div>
+            </div>
+            <div class="w3-dropdown-hover w3-hide-small">
+                <a class="w3-padding-large w3-button w3-hover-orange w3-padding-large w3-hide-small w3-text-deep-orange">MERCEDES 
+                    <i class="fa fa-caret-down"></i>
+                </a>
+                <div class="w3-dropdown-content w3-bar-block w3-card-4 hover">
+                    <a href="./podstrony/marka_auta/nazwa_modelu.html" class="w3-bar-item w3-button w3-hover-orange w3-padding-large w3-hide-small w3-text-deep-orange w3-black">TYP 1</a>
+                    <a href="./podstrony/marka_auta/nazwa_modelu.html" class="w3-bar-item w3-button w3-hover-orange w3-padding-large w3-hide-small w3-text-deep-orange w3-black">TYP 2</a>
+                </div>
+            </div>
+            <div class="w3-dropdown-hover w3-hide-small">
+                <a class="w3-padding-large w3-button w3-hover-orange w3-padding-large w3-hide-small w3-text-deep-orange">PORSCHE 
+                    <i class="fa fa-caret-down"></i>
+                </a>
+                <div class="w3-dropdown-content w3-bar-block w3-card-4 hover">
+                    <a href="./podstrony/marka_auta/nazwa_modelu.html" class="w3-bar-item w3-button w3-hover-orange w3-padding-large w3-hide-small w3-text-deep-orange w3-black">TYP 1</a>
+                    <a href="./podstrony/marka_auta/nazwa_modelu.html" class="w3-bar-item w3-button w3-hover-orange w3-padding-large w3-hide-small w3-text-deep-orange w3-black">TYP 2</a>
+                </div>
+            </div>
         </div>
-<!-- Koniec menu -->
-
-<!-- Slajder -->
-  <div id="slajder-zdjec">
-    <div id="ramka-slajdow">
-      <img src="grafika1.jpg" alt="" />
-      <div id="slajdy">
-        <img id="slide1" src="img/mustang.jpg" />
-        <img id="slide2" src="grafika2.jpg" />
-        <img id="slide3" src="grafika3.jpg" />
-        <img id="slide4" src="grafika4.jpg" />
-        <img id="slide5" src="grafika5.jpg" />
-      </div>
     </div>
-    <div id="nawigacja">
-      <a href="#slide1">1</a>
-      <a href="#slide2">2</a>
-      <a href="#slide3">3</a>
-      <a href="#slide4">4</a>
-      <a href="#slide5">5</a>
-    </div>
-  </div>
-<!-- Koniec slajdera -->  
 
-    </body>
+    <!-- Page content -->
+    <div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+        <!-- Automatic Slideshow Images -->
+        <div class="mySlides w3-display-container w3-center">
+            <img src="img/slideshow/1.jpg" style="width:100%">
+            <div class="w3-display-middle w3-container w3-text-white w3-padding w3-hide-small"
+                style="width: 100%; background-color: rgba(0, 0, 0, 0.7);">
+                <h1>Prawdopodobnie najlepsze maszyny na świecie</h1>
+            </div>
+        </div>
+        <div class="mySlides w3-display-container w3-center">
+            <img src="img/slideshow/2.jpg" style="width:100%">
+            <div class="w3-display-middle w3-container w3-text-white w3-padding w3-hide-small"
+                style="width: 100%; background-color: rgba(0, 0, 0, 0.7);">
+                <h1>Niesamowite przyśpieszenie</h1>
+            </div>
+        </div>
+        <div class="mySlides w3-display-container w3-center">
+            <img src="img/slideshow/3.jpg" style="width:100%">
+            <div class="w3-display-middle w3-container w3-text-white w3-padding w3-hide-small"
+                style="width: 100%; background-color: rgba(0, 0, 0, 0.7);">
+                <h1>Kosmiczne ceny</h1>
+            </div>
+        </div>
+        <div class="mySlides w3-display-container w3-center">
+            <img src="img/slideshow/4.jpg" style="width:100%">
+            <div class="w3-display-middle w3-container w3-text-white w3-padding w3-hide-small"
+                style="width: 100%; background-color: rgba(0, 0, 0, 0.7);">
+                <h1>Oszałamiający wygląd</h1>
+            </div>
+        </div>
+        <div class="mySlides w3-display-container w3-center">
+            <img src="img/slideshow/5.jpg" style="width:100%">
+            <div class="w3-display-middle w3-container w3-text-white w3-padding w3-hide-small"
+                style="width: 100%; background-color: rgba(0, 0, 0, 0.7);">
+                <h1>Piekielna moc silnika</h1>
+            </div>
+        </div>
+        <div class="mySlides w3-display-container w3-center">
+            <img src="img/slideshow/6.jpg" style="width:100%">
+            <div class="w3-display-middle w3-container w3-text-white w3-padding w3-hide-small"
+                style="width: 100%; background-color: rgba(0, 0, 0, 0.7);">
+                <h1>Niezapomniane emocje podczas jazdy</h1>
+            </div>
+        </div>
+
+        <!-- O firmie -->
+        <div class="margin w3-container w3-content w3-center" style="max-width:800px">
+            <h2 class="w3-wide w3-border-deep-orange w3-border-bottom w3-margin-bottom"
+                style="margin-top:64px;margin-bottom:32px !important">Najszybsze samochody świata</h2>
+            <p class="w3-justify w3-large indent">Szybkie, mocne, piękne, luksusowe… lubimy różne samochody, 
+                ale najbardziej pociągające są te, które zawierają wszystkie te cechy. Samochody osobowe w czasach, 
+                gdy nastoletni chłopcy dostają pierwsze auta na osiemnastkę, nie robią już dużego wrażenia. 
+                Zazwyczaj traktowane są jako zwykłe środki transportu. W dodatku jazdy sportowym samochodem, 
+                nie można porównać do jazdy osobówką. Bywa tak, że samochody są zdecydowanie czymś więcej, 
+                niż tylko narzędziami, służącymi do przemieszczania się z punktu A do punktu B. 
+                Niektóre modele to prawdziwe dzieła motoryzacyjnej sztuki. Projektanci tacy jak Marcello Gandini 
+                (Lamborghini), Giorgetto Giugiaro (Ferrari, Maserati) czy Ian Callum (Aston Martin, Jaguar) 
+                nie są wyłącznie inżynierami, lecz prawdziwymi artystami, którzy swoje artystyczne wizje wcielają w życie, 
+                tworząc nadwozia dla najlepszych i najdroższych aut od największych producentów.</p>
+
+
+        <!-- Nasza oferta -->
+
+        <div class="w3-container w3-content w3-center w3-padding" style="max-width:800px">
+            <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+                <h2 class="w3-wide w3-center w3-border-deep-orange w3-border-bottom w3-margin-bottom"
+                    style="margin-bottom:32px !important">Jakie cechy powinien posiadać super samochód?</h2>
+                <p class="w3-justify w3-large indent">Zakwalifikowanie danego auta do jednej z powyższych 
+                    kategorii opiera się na wielu czynnikach, takich jak osiągi, przyjemność z jazdy, 
+                    precyzja prowadzenia, zastosowane technologie, luksus oraz oczywiście prestiż marki, 
+                    docelowa klientela, cena auta i jego dostępność. Im droższe i mniej dostępne, 
+                    tym większa szansa, że zostanie zakwalifikowane do kategorii superaut. 
+                    Różnicowanie aut jest oczywiście bardzo subiektywne, jako iż dla jednej osoby Audi R8
+                     będzie sportowym samochodem, a dla innej supersamochodem.</p>
+                <ol class="w3-ul w3-justify w3-large" style="list-style-type: disc">
+                    <li>zawrotne przyśpieszenie</li>
+                    <li>gigantyczna moc</li>
+                    <li>precyzyjny układ kierowniczy</li>
+                    <li>piękna stylistyka</li>
+                    <li>kosmiczna cena</li>
+                    <li>niepowtarzalność</li>
+                </ol>
+            </div>
+        </div>
+
+        <!-- End Page Content -->
+    </div>
+
+    <!-- COOKIE -->
+    <div id="cookies-message-container">
+        <div id="cookies-message">
+            Ta strona używa ciasteczek (cookies), dzięki którym nasz serwis może działać lepiej.
+            <a href="javascript:WHCloseCookiesWindow();" id="accept-cookies-checkbox">Rozumiem</a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="w3-row w3-padding-64 w3-center w3-opacity w3-black w3-xlarge">
+        <div class="w3-col s4 w3-center">
+            <p class="w3-medium">Powered by
+                <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a>
+                <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                    <img style="border:0;width:88px;height:31px"
+                        src="http://jigsaw.w3.org/css-validator/images/vcss"
+                        alt="Poprawny CSS!" />
+                </a>
+            </p>
+
+        </div>
+        <div class="w3-col s4 w3-center">
+            <i class="fa fa-facebook-official w3-hover-opacity"></i>
+            <i class="fa fa-instagram w3-hover-opacity"></i>
+            <i class="fa fa-snapchat w3-hover-opacity"></i>
+            <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+            <i class="fa fa-twitter w3-hover-opacity"></i>
+            <i class="fa fa-linkedin w3-hover-opacity"></i>
+        </div>
+        <div class="w3-col s4 w3-center">
+            <a href="privetpolicy.html" target="blank" class="w3-medium">Polityka prywatności</a>
+        </div>
+    </footer>
+    <script src="js/scripts.js"></script>
+</body>
+
 </html>
